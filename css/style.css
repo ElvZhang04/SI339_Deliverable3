@@ -1,0 +1,47 @@
+h1 {
+    font-size: 8ch;
+    color: white;
+}
+
+h2 {
+    font-size: 5ch;
+    color: white;
+}                           
+
+header p {
+    font-size: 3ch;
+    color: white;
+}
+
+header {
+    background-color: rgb(56,56,56);
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.gallery p {
+    font-size: 4ch;
+    color: black;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.athlete {
+    position: relative;
+    text-align: center;
+    padding: 25px;
+}
+
+.athlete:hover, .athlete:focus {
+    outline: rgb(47,178,206) solid 5px;
+}

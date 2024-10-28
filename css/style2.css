@@ -1,0 +1,127 @@
+a:hover {
+    outline: rgb(47,178,206) solid 3px;
+}
+
+body {
+    background-color: rgb(56,56,56);
+}
+
+.logo {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 7ch;
+}
+
+h2 {
+    font-size: 5ch;
+    color: white;
+    text-align: center;
+}
+
+#gallery h2 {
+    text-align: left;
+}
+
+#athlete-sr-table {
+    padding-bottom: 100px;
+}
+
+#athlete-sr-table-result {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#athlete-sr-table th {
+    background-color: rgb(47,178,206);
+    color: black;
+    padding: 12px;
+    text-align: left;
+}
+
+#athlete-sr-table td, #athlete-sr-table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#athlete-sr-table td {
+    color: white;
+}
+
+#athlete-sr-table tbody tr:nth-child(even) {
+    background-color: #5f5f5f;
+}
+
+#athlete-sr-table a:hover {
+    outline: rgb(47,178,206) solid 3px;
+}
+
+#athlete-sr-table td {
+    text-align: left;
+}
+
+#athlete-table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 200px;
+}
+
+#athlete-result-table th {
+    background-color: rgb(47,178,206);
+    color: black;
+    padding: 12px;
+    text-align: left;
+}
+
+#athlete-result-table td, #athlete-result-table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#athlete-result-table td {
+    color: white;
+}
+
+#athlete-result-table tbody tr:nth-child(even) {
+    background-color: #5f5f5f;
+}
+
+#athlete-result-table a {
+    color: white;
+    text-decoration: none;
+}
+
+#athlete-result-table td {
+    text-align: left;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+}
